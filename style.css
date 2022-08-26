@@ -24,13 +24,13 @@
     align-items: center;
 }
 .page{
-        height: 500px;
+        height: 530px;
         width: 400px;
         background-color: var(--seventhcolor);
         position: absolute;
         padding: 25px;
         border-radius: 10px;
-        box-shadow: 0px 5px 10px black;
+        box-shadow: 0px 5px 7px rgb(54, 51, 51);
 }
 .page h1{
     padding: 15px;
@@ -70,6 +70,7 @@ li i{
     margin-left: 199px;
     color: var(--thirdcolor);
     text-decoration: none;
+    height: 20px;
 }
 .page>a:hover{
     color: var(--fifthcolor);
@@ -90,10 +91,11 @@ li i{
 }
 .page p{
     text-align: center;
-    margin: 10px 0px;
+    margin: 20px 0px;
 }
 .lists{
-    position: relative
+    position: relative;
+    margin-top: 20px;
 }
 .page .lists ul{
     display: flex;
